@@ -1,0 +1,99 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+section {
+  padding: 10px;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+figure img {
+  cursor: pointer;
+}
+
+.stickers-container {
+  display: flex;
+  justify-content: center;
+}
+
+.stickers-container figure img {
+  width: 200px;
+}
+
+.stickers-container input {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  width: 100px;
+}
+
+.sticker-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.output button {
+  padding: 5px;
+  margin-top: 10px;
+  width: 15%;
+}
+
+.output p {
+  color: white;
+  width: 300px;
+  height: fit-content;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  background-color: rgb(68, 67, 67);
+  margin-top: 10px;
+}
+
+
+.password-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.password-container select {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#box-1,
+#box-2,
+#box-3 {
+  background-color: #f4f4f4;
+}

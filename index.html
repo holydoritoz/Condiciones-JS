@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafío 2 @darioUrdaneta</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+
+  <section id="exercises-1">
+    <div class="box has-background-grey is-size-1	has-text-white">
+      Exercise #1
+    </div>
+    <figure>
+      <img src="./assets/img/pag1.png" alt="logo de mario bros en colores vivos" onclick="clickMe()" id="image">
+    </figure>
+  </section>
+
+  <section id="exercises-2">
+    <div class="box has-background-grey is-size-1	has-text-white"> Exercise #2</div>
+    <div class="stickers-container">
+      <div class="sticker-card">
+        <figure>
+          <img src="./assets/img/sticker-1.png" alt="">
+        </figure>
+        <input class="input is-primary" type="number" min="0" max="10" value="0" id="sticker-1">
+      </div>
+      <div class="sticker-card">
+        <figure>
+          <img src="./assets/img/sticker-2.png" alt="">
+        </figure>
+        <input class="input is-primary" type="number" min="0" max="10" value="0" id="sticker-2">
+      </div>
+      <div class="sticker-card">
+        <figure>
+          <img src="./assets/img/sticker-3.webp" alt="">
+        </figure>
+        <input class="input is-primary" type="number" min="0" max="10" value="0" id="sticker-3">
+      </div>
+    </div>
+    <div class="output">
+      <button class="button is-primary" id="btn" onclick="stickerCalculator()">Verificar</button>
+      <p id="output"></p>
+    </div>
+  </section>
+
+
+  <section id="exercises-3">
+    <div class="box has-background-grey is-size-1	has-text-white"> Exercise #3</div>
+    <div class="password-container">
+      <h1>Ingresa el password:</h1>
+      <select name="numero" id="box-1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select name="numero" id="box-2">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select name="numero" id="box-3">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <div class="output">
+        <button class="button is-primary output" id="pass-btn" onclick="passwordValidation()">Verificar</button>
+        <p id="pass-output"></p>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <footer class="mt-5">
+    <div class="content has-text-centered is-flex is-flex-direction-column is-align-items-center">
+      <p>
+        <strong>Condiciones</strong> by <a href="https://github.com/holydoritoz?tab=repositories" target="_blank">Dario
+          Urdaneta</a>.
+      </p>
+      <p>
+        <strong>DesafioLatam G43</strong>
+      </p>
+      <p>
+        <strong>Powerby</strong>
+      </p>
+      <figure class="image is-96x96 m-auto">
+        <img src="./assets/img/bulma-logo.jpg">
+      </figure>
+    </div>
+  </footer>
+  <script src="/assets/script/main.js"></script>
+</body>
+
+</html>
